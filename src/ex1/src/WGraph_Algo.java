@@ -199,7 +199,6 @@ public class WGraph_Algo implements weighted_graph_algorithms {
         int key;
         weighted_graph answer=new WGraph_DS();
         try {
-          //  String file2="C:\\Users\\אביהו\\IdeaProjects\\mtalaEx1\\"+file+".txt";
             Scanner scanner = new Scanner(new  File(file));
             //empty graph
             if(!scanner.hasNext())
