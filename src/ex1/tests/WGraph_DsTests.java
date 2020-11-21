@@ -205,7 +205,7 @@ public class WGraph_DsTests {
     @Test
     public void RandomBuild()
     {
-        weighted_graph g=graph_creator(1000000,10000000,0);
+        weighted_graph g=graph_creator(1000000,10000000,6);
     }
     /**
      * Generate a random graph with v_size nodes and e_size edges
